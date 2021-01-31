@@ -25,7 +25,7 @@ import run
 @pytest.fixture
 def caplog(caplog):
     """Set global test logging levels."""
-    caplog.set_level(logging.DEBUG)
+    caplog.set_level(logging.INFO)
     return caplog
 
 
